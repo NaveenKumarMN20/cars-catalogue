@@ -1,0 +1,12 @@
+spring:
+  datasource:
+    url: jdbc:mysql:localhost:3306/testdatabase
+    username: dbuser
+    password: Dbuser@123
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
+
+
